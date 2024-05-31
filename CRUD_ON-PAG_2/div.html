@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .to{
+            width: 600px;
+            height: 400px;
+            background: #0032fa;
+            border: 2px solid #00aafa;
+            border-radius: 15px;
+            box-shadow: 0 0 12px 12px #00aafa;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .left{position: absolute;
+            width: 50px;
+            height: 60px;
+            border-radius: 50%;
+            border-left: 5px solid bisque;
+        }
+        .right{position: absolute;
+            left: 66%;
+            border-radius: 50%;
+            width: 50px;
+            height: 60px;
+            border-right: 5px solid bisque;
+        }
+        video{
+            width: 100%;
+               }
+    </style>
+</head>
+<body>
+    <div class="to">
+        <div class="left" ></div>
+        <video  controls>
+            <source src="20240409024227.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+        <div class="right"></div>
+    </div>
+</body>
+</html>
