@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href='croad.css'>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+</head> 
+<body>
+    <form enctype="multipart/form-data" action="add.php" id="form" >
+        
+     
+                   <div id="verified">ADD</div> 
+    <h3>tourImg :</h3>
+        <input type="file" name="tourImgg" id="tourImgg"  >
+        <div class="err" id="errtourImgg"></div>
+                    <div id="addtourImgg"><i class="fa fa-plus-square" aria-hidden="true"></i> Add Imag</div>
+    <div id="addimgs">
+        <input type="file" name="tourImgg2" id="tourImgg2"  >
+        <div class="err" id="errtourImgg2"></div>
+         <input type="file" name="tourImgg3" id="tourImgg3"  >
+        <div class="err" id="errtourImgg3"></div>
+        <input type="file" name="tourImgg4" id="tourImgg4"  >
+        <div class="err" id="errtourImgg4"></div>
+   </div>  
+<div id="inputs">
+    <h3>tourName :</h3>
+        <input type="text" name="tourName" id="tourName"  >
+        <div class="err" id="errtourName"></div>
+    <h3>tourPrice :</h3>
+        <input type="text" name="tourPrice" id="tourPrice" >
+        <div class="err" id="errtourPrice"></div>
+    <h3>tourDescription :</h3>
+        <input type="text" name="tourDescription" id="tourDescription" >
+        <div class="err" id="errtourDescription"></div>
+    <h3> touradddescription :</h3>
+        <input type="text" name="touradddescription" id="touradddescription" >
+        <div class="err" id="errtouradddescription"></div>
+        </div>
+        <div class="loaderto">
+        <div class="loader"></div>
+        </div>
+ <a href="sql.php" id="linklogin"> <i class="fa fa-long-arrow-left" aria-hidden="true"></i>daata </a>
+        <input type="submit" name="submit" id="submit">
+    
+       
+
+    </form>
+    <script src="add.js" ></script>
+</body>
+</html>
